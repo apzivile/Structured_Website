@@ -1,0 +1,106 @@
+/* change font for whole page*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*div container used in index.php
+change color,width, move to the right with margin-left
+add border,increase size with padding
+round corners with boder radius */
+.mail {
+	background-color: #EEEEEE;
+	width : 48%;
+	margin-left:8%;
+	border: 2px solid #DDDDDD;
+	padding:13px;
+	border-radius:3px;
+	padding-bottom:50px;
+}
+/*div container used in secondpage.php
+is exactly the same as .mail only bigger padding*/
+.secondbox {
+	background-color: #EEEEEE;
+	width : 20%;
+	margin-left:8%;
+	border: 2px solid #DDDDDD;
+	padding:200px;
+	border-radius:3px;
+	padding-bottom:50px;
+}
+/*heading 2, moved to the right with margin-left
+increased width, has a border on the bottom, and bold font*/
+h2 {
+	margin-left: 5%;
+	width :53%;
+	border-bottom: 3px solid #BCBCBC;
+	font-weight: bold;
+}
+/*heading 4, moved to the right with margin-left
+added size with padding and bold font*/
+h4{
+	margin-left: 8%;
+	padding:1%;
+	font-weight: bold;
+}
+/*master card image with restricted width
+image box moved to the right with margin-left
+and added space on the right  with margin-right
+vertical align to make image in the middle inline with text*/
+img {
+	width : 5%;
+	margin-left : 2%;
+	margin-right :2%;
+	vertical-align : middle;
+}
+/*style labels by setting font size and weight*/
+label{
+	font-size:13px;
+	font-weight: bold;
+}
+/*change input borders making left and top border darker 
+also round edges of the border*/
+.input{
+	border-radius:3px;
+	border-left:2px solid #CCCCCC;
+	border-top:2px solid #CCCCCC;
+}
+/*move seccode input box and set size*/
+#secode{
+	margin-left:20px;
+	width:60px;
+}
+/*move cardno input box*/
+#cardno{
+	margin-left:25px;
+}
+/*set month select box size */
+#month{
+	
+	width:70px;
+	}
+
+/*move guide span and set its size*/
+.guide{
+	margin-left:110px;
+	font-size:13px;
+}
+/*move select boxes, round corners and change their colour*/
+select{
+	margin-left:12px;
+	border-radius:3px;
+	border:2px solid #D8D8D8;
+}
+/*set size for submit box, move it and increase its size*/
+.submit{
+font-size: 1em;
+margin-left :80px;
+padding: 15px;
+}
+/*change the submit buttons color, add dark border and round corners, move to the right*/
+.button{
+background-color: #C60400;
+color: white;
+border: 2px solid #994646;
+border-radius: 3px;
+margin-left:18px;
+}
